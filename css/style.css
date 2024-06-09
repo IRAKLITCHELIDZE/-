@@ -1,0 +1,70 @@
+.bh {
+  width: auto;
+  height: 60px;
+
+  background: #202020;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.tbc {
+  display: flex;
+}
+
+.bh p {
+  color: #ffffff;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.15px;
+}
+.tbclogo {
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+}
+.d {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 200px;
+}
+
+.l {
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.15px;
+  text-align: left;
+  color: #ffffff;
+}
+
+::placeholder {
+  font-family: Public Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #8e8e8e;
+}
+
+.search {
+  background-color: #0077ed;
+}
+
+.s2 {
+  margin-top: 10px;
+  display: flex;
+}
+.lg {
+  width: 173px;
+  height: 38px;
+  top: 116px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+}
