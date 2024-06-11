@@ -1,0 +1,38 @@
+@media (max-width: 800px) {
+  .login {
+    display: none;
+  }
+  .
+}
+
+@media (max-width:650px){
+    .search-container{
+        display: none;
+    }
+    .s2{
+        justify-content: space-evenly;
+    }
+    .sl{
+        
+        justify-content: space-between;
+        width: 100px;
+    }
+    .fa-bars{
+        display: flex;
+    }
+    .j{
+        justify-content: space-between;
+        
+        width: 300px;
+        
+    }
+    .s3{
+        display: none;
+    }
+    
+}
+@media(max-width:950px){
+    .w1{
+        display: none;
+    }
+}

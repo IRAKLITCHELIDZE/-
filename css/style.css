@@ -53,12 +53,16 @@
 }
 
 .search {
-  background-color: #0077ed;
 }
 
 .s2 {
   margin-top: 10px;
   display: flex;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
 }
 .lg {
   width: 173px;
@@ -67,4 +71,126 @@
   left: 100px;
   gap: 0px;
   opacity: 0px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 20px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: #0077ed;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  background-color: #0077ed;
+}
+.c {
+  display: flex;
+  align-items: center;
+}
+
+.userimg {
+  width: 20px;
+  height: 19px;
+  margin-right: 7px;
+}
+.sl {
+  display: flex;
+  justify-content: space-between;
+
+  width: 230px;
+}
+.sp {
+  display: flex;
+  align-items: center;
+}
+.shp {
+  width: 20px;
+  height: 21px;
+  margin-right: 7px;
+}
+.tx {
+  font-family: Public Sans;
+  font-size: 15.5px;
+  font-weight: 400;
+  line-height: 21.15px;
+  text-align: left;
+  color: #000000;
+}
+.fa-bars {
+  font-size: 35px;
+  display: none;
+}
+.j {
+  display: flex;
+  justify-content: center;
+}
+.bars {
+  width: 30px;
+  height: 27.1px;
+}
+.container {
+  display: flex;
+}
+.w {
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #000000;
+}
+.jr {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 570px;
+}
+.s3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 14px;
+}
+.ww {
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #dd1d1d;
+}
+.a1 {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+.a2 {
+  display: flex;
+  justify-content: space-between;
+  width: 83px;
+}
+.mains {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
