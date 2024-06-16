@@ -94,3 +94,51 @@
     height: 30px;
   }
 }
+@media(max-width:700px){
+  .s8{
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    justify-content: space-around;
+  }
+    .fdv3{
+        display: none;
+    }
+
+    .flist{
+        display: none;
+    }
+    .s9{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .fd{
+        
+        width: 200px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin-left: 65px;
+        
+    }
+    .fdwn{
+        display: inline-block;
+    }
+    .equal1{
+        display: flex;
+        align-items: center;
+       
+        height: 40px;
+    }
+    .equal2{
+        display: flex;
+        align-items: start;
+        
+        height: 30px;
+
+    }
+    .fh1{
+        font-size: 20px;
+    }
+}
