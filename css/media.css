@@ -29,6 +29,9 @@
     .s3{
         display: none;
     }
+    .barss{
+        display: inline-block;
+    }
     
 }
 @media(max-width:950px){
